@@ -4,7 +4,7 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "phoenix": "rm -rf node_modules && npm install",
+    "phoenix": "rm -rf node_modules package-lock.json && npm install",
     "dev": "IS_OFFLINE=true sls offline start",
     "test": "echo \"Error: no test specified\" "
   },
