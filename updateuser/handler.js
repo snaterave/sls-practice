@@ -1,5 +1,5 @@
-const aws = require("aws-sdk");
-
+// const aws = require("aws-sdk");
+import aws from "aws-sdk";
 // para ver que lee las variables del serverless
 console.log('IS_OFFLINE =>', process.env.IS_OFFLINE);
 // Hablar con la BD

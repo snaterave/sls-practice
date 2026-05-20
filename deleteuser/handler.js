@@ -1,5 +1,5 @@
-const aws = require("aws-sdk");
-
+// const aws = require("aws-sdk");
+import aws from "aws-sdk";
 // verificar si esta apuntando a la nube o al local
 let dynamoDBClienteParams = {}; //cuando esta vacia pega a la BD en la nube
 if (process.env.IS_OFFLINE) {
