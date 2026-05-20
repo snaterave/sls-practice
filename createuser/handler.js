@@ -1,7 +1,7 @@
-// const aws = require("aws-sdk");
-// const { randomUUID } = require("crypto");
-import aws from "aws-sdk";
-import { randomUUID } from "crypto";
+const aws = require("aws-sdk");
+const { randomUUID } = require("crypto");
+// import aws from "aws-sdk";
+// import { randomUUID } from "crypto";
 // para ver que lee las variables del serverless
 console.log('IS_OFFLINE =>', process.env.IS_OFFLINE);
 // Hablar con la BD
